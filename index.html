@@ -1,0 +1,400 @@
+<!doctype html>
+<html lang="sk">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Daniel — softvér a automatizácie pre firmy</title>
+    <meta
+      name="description"
+      content="Staviam interné nástroje, automatizácie a weby pre malé a stredné firmy. HACCP systém v produkcii v štyroch prevádzkach."
+    />
+
+    <!-- ⚠️ VYPLŇ po výbere domény -->
+    <link rel="canonical" href="https://example.sk/" />
+    <link rel="alternate" hreflang="sk" href="https://example.sk/" />
+    <link rel="alternate" hreflang="en" href="https://example.sk/en/" />
+    <link rel="alternate" hreflang="x-default" href="https://example.sk/" />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="sk_SK" />
+    <meta property="og:title" content="Daniel — softvér a automatizácie pre firmy" />
+    <meta
+      property="og:description"
+      content="Staviam interné nástroje, automatizácie a weby pre malé a stredné firmy."
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Schibsted+Grotesk:wght@400;500&family=JetBrains+Mono:wght@400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <a class="skip-link" href="#main">Preskočiť na obsah</a>
+
+    <!-- NAVIGÁCIA -->
+    <header class="nav">
+      <div class="wrap nav__inner">
+        <a class="nav__brand" href="/">Daniel</a>
+
+        <nav class="nav__links">
+          <a href="#work">Práca</a>
+          <a href="#services">Služby</a>
+          <a href="#about">O mne</a>
+        </nav>
+
+        <div class="nav__right">
+          <a class="nav__lang" href="/en/" hreflang="en">EN</a>
+          <a class="nav__cta" href="#contact">Napíš mi</a>
+        </div>
+      </div>
+    </header>
+
+    <main id="main">
+      <!-- HERO -->
+      <section class="band band--deep">
+        <div class="wrap hero">
+          <span class="status">
+            <span class="status__dot" aria-hidden="true"></span>
+            <!-- ⚠️ meň podľa reálnej dostupnosti -->
+            <span class="status__text">Prijímam nové projekty</span>
+          </span>
+
+          <h1 class="hero__title">
+            Staviam softvér pre firmy, ktoré softvér nechcú.
+          </h1>
+
+          <p class="hero__lead">
+            Chcú len, aby im niečo prestalo žrať čas. Neriešim najprv
+            technológiu — riešim, kde presne ti unikajú hodiny. Až potom
+            vyberám, čím to zaplátať.
+          </p>
+
+          <div class="hero__actions">
+            <a class="btn btn--primary" href="#contact">
+              Napíš mi <span class="arrow" aria-hidden="true">↗</span>
+            </a>
+            <a class="btn btn--ghost" href="#work">Pozri prácu</a>
+          </div>
+        </div>
+      </section>
+
+      <!-- PROOF -->
+      <section class="band">
+        <div class="wrap pad">
+          <div class="reveal">
+            <p class="eyebrow">V produkcii</p>
+            <h2 class="section-title">
+              Nie koncepty. Systémy, ktoré niekto reálne používa.
+            </h2>
+          </div>
+
+          <div class="reveal stats">
+            <div class="stat">
+              <p class="stat__value">4</p>
+              <p class="stat__label">prevádzky</p>
+            </div>
+            <div class="stat">
+              <p class="stat__value">13</p>
+              <p class="stat__label">sledovaných jednotiek</p>
+            </div>
+            <div class="stat">
+              <p class="stat__value">2</p>
+              <p class="stat__label">produkty v produkcii</p>
+            </div>
+          </div>
+
+          <!-- Signature prvok: trinásť buniek = trinásť reálnych jednotiek.
+               Mriežka nesie informáciu, nie je to dekorácia. -->
+          <div class="reveal units">
+            <p class="eyebrow">Sledované jednotky — 13</p>
+            <ul class="units__grid" aria-hidden="true">
+              <li class="units__cell">01</li>
+              <li class="units__cell">02</li>
+              <li class="units__cell">03</li>
+              <li class="units__cell">04</li>
+              <li class="units__cell">05</li>
+              <li class="units__cell">06</li>
+              <li class="units__cell">07</li>
+              <li class="units__cell">08</li>
+              <li class="units__cell">09</li>
+              <li class="units__cell">10</li>
+              <li class="units__cell">11</li>
+              <li class="units__cell">12</li>
+              <li class="units__cell">13</li>
+            </ul>
+            <p class="units__note">
+              HACCP systém beží v štyroch prevádzkach naprieč trinástimi
+              jednotkami. Každá jednotka je chladnička, mraznička alebo výdajný
+              pult s vlastným meraním.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- PRÁCA -->
+      <section class="band" id="work">
+        <div class="wrap pad">
+          <div class="reveal">
+            <p class="eyebrow">Práca</p>
+            <h2 class="section-title">
+              Dva projekty, ktoré vysvetlia viac než životopis.
+            </h2>
+          </div>
+
+          <div class="projects">
+            <!-- HACCP -->
+            <article class="reveal project">
+              <div class="project__grid">
+                <div>
+                  <p class="project__category">SaaS · Gastro</p>
+                  <h3 class="project__title">HACCP systém pre gastro prevádzky</h3>
+                  <p class="project__summary">
+                    Multi-tenant evidencia hygienických záznamov, ktorá nahradila
+                    šanóny a papierové tabuľky.
+                  </p>
+
+                  <dl class="meta-list">
+                    <div>
+                      <dt>Stav</dt>
+                      <dd>V produkcii, prepis v2</dd>
+                    </div>
+                    <div>
+                      <dt>Stack</dt>
+                      <dd>
+                        <div class="tags">
+                          <span class="tag">Next.js 15</span>
+                          <span class="tag">Supabase</span>
+                          <span class="tag">PostgreSQL RLS</span>
+                          <span class="tag">PWA</span>
+                          <span class="tag">TypeScript</span>
+                        </div>
+                      </dd>
+                    </div>
+                  </dl>
+                </div>
+
+                <div class="project__story">
+                  <div>
+                    <p class="block__label">Problém</p>
+                    <p class="block__text">
+                      Prevádzky vedú HACCP záznamy ručne. Teplota chladničky
+                      dvakrát denne, podpis, do šanónu. Pri kontrole sa hľadá pol
+                      hodiny a chýbajúci zápis sa dopisuje spätne — čo je presne
+                      to, čo evidencia nemá dovoliť.
+                    </p>
+                  </div>
+
+                  <div>
+                    <p class="block__label">Riešenie</p>
+                    <p class="block__text">
+                      Kioskový tablet v kuchyni. Zamestnanec sa prihlási PIN-om a
+                      zapíše meranie za pár sekúnd. Manažér vidí všetky prevádzky
+                      v jednom prehľade a report za obdobie vyexportuje jedným
+                      klikom.
+                    </p>
+                  </div>
+
+                  <div class="decision">
+                    <p class="block__label">Prečo tak</p>
+                    <p class="block__text">
+                      Kuchyňa nemá stabilnú wifi, takže aplikácia je
+                      offline-first — zápis ide do lokálnej fronty a
+                      synchronizuje sa, keď je linka. Merania sú immutabilné:
+                      existujúci záznam sa nedá prepísať, len opraviť novým s
+                      odkazom na pôvodný. Bez tejto jednej vlastnosti je celá
+                      evidencia pri kontrole bezcenná, takže je zapečená v
+                      dátovom modeli, nie v UI.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </article>
+
+            <!-- 484.sk -->
+            <article class="reveal project">
+              <div class="project__grid">
+                <div>
+                  <p class="project__category">Marketplace · Reality</p>
+                  <h3 class="project__title">484.sk</h3>
+                  <p class="project__summary">
+                    Realitný portál pre priame predaje — bez realitky a bez
+                    provízie.
+                  </p>
+
+                  <dl class="meta-list">
+                    <div>
+                      <dt>Stav</dt>
+                      <dd>Live</dd>
+                    </div>
+                    <div>
+                      <dt>Stack</dt>
+                      <dd>
+                        <div class="tags">
+                          <span class="tag">Next.js</span>
+                          <span class="tag">Supabase</span>
+                          <span class="tag">Vercel</span>
+                          <span class="tag">jsDelivr CDN</span>
+                        </div>
+                      </dd>
+                    </div>
+                  </dl>
+
+                  <a
+                    class="project__link"
+                    href="https://mokrancee.vercel.app"
+                    target="_blank"
+                    rel="noreferrer noopener"
+                    >Pozrieť ↗</a
+                  >
+                </div>
+
+                <div class="project__story">
+                  <div>
+                    <p class="block__label">Problém</p>
+                    <p class="block__text">
+                      Kto predáva dom sám, skončí v inzertnom mori, kde je jeho
+                      ponuka nerozoznateľná od stoviek ďalších a do hodiny mu
+                      volajú traja makléri.
+                    </p>
+                  </div>
+
+                  <div>
+                    <p class="block__label">Riešenie</p>
+                    <p class="block__text">
+                      Úzko zameraný portál len na priame predaje. Zadanie ponuky
+                      trvá minúty, fotky sa spracujú automaticky.
+                    </p>
+                  </div>
+
+                  <div class="decision">
+                    <p class="block__label">Prečo tak</p>
+                    <p class="block__text">
+                      Obrázky idú cez GitHub a jsDelivr CDN namiesto plateného
+                      object storage. Pri objeme, ktorý portál dnes má, to
+                      znamená nulové náklady na hosting médií pri plnej CDN
+                      rýchlosti — a keď objem narastie, výmena za Supabase
+                      Storage je zmena jednej vrstvy, nie prepis.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- SLUŽBY -->
+      <section class="band" id="services">
+        <div class="wrap pad">
+          <div class="reveal">
+            <p class="eyebrow">Služby</p>
+            <h2 class="section-title">Tri veci, ktoré robím poriadne.</h2>
+            <p class="section-lead">
+              Nerobím všetko. To, čo je nižšie, som už postavil a viem odhadnúť,
+              koľko to zaberie.
+            </p>
+          </div>
+
+          <div class="reveal services">
+            <div class="service">
+              <h3 class="service__title">Interné nástroje na mieru</h3>
+              <p class="service__body">
+                Evidencie, prehľady, systémy pre tím. Tam, kde Excel prestal
+                stačiť a hotové riešenie sedí len na polovicu.
+              </p>
+            </div>
+            <div class="service">
+              <h3 class="service__title">Automatizácie a AI integrácie</h3>
+              <p class="service__body">
+                Ak niečo robíš každý týždeň ručne, dá sa to zautomatizovať.
+                Spracovanie dokumentov, prepojenie systémov, ktoré spolu
+                nehovoria.
+              </p>
+            </div>
+            <div class="service">
+              <h3 class="service__title">Weby, ktoré niečo robia</h3>
+              <p class="service__body">
+                Rýchle, prehľadné a napojené na to, čo za nimi beží. Nie šablóna
+                s tvojím logom.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- O MNE -->
+      <section class="band" id="about">
+        <div class="wrap pad">
+          <div class="about">
+            <!-- ⚠️ VYPLŇ: daniel.jpg — pomer 4:5, tmavé pozadie.
+                 Renderuje sa čiernobielo, farebný originál je v poriadku. -->
+            <div class="reveal about__photo">
+              <img src="daniel.jpg" alt="Portrét Daniela" loading="lazy" />
+            </div>
+
+            <div class="reveal">
+              <p class="eyebrow">O mne</p>
+              <h2 class="section-title">Prečo práve ja</h2>
+              <div class="about__body">
+                <p>
+                  Väčšina firiem, ktoré ma oslovia, nepotrebuje appku. Potrebuje,
+                  aby jeden konkrétny proces prestal bežať cez papier, štyri
+                  Excely a jedného človeka, ktorý si všetko pamätá.
+                </p>
+                <p>
+                  Preto sa nepýtam, akú technológiu chceš. Pýtam sa, čo ti trvá
+                  najdlhšie a ako často to robíš. Z toho vyjde, či sa to vôbec
+                  oplatí stavať — a niekedy je odpoveď nie.
+                </p>
+                <p>
+                  Beriem obmedzený počet projektov naraz. Je to zámer: radšej dve
+                  veci dotiahnuté než päť rozrobených.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- KONTAKT -->
+      <section class="band band--deep" id="contact">
+        <div class="wrap pad">
+          <div class="reveal">
+            <p class="eyebrow">Kontakt</p>
+            <h2 class="contact__title">Máš proces, ktorý ti žerie čas?</h2>
+            <p class="contact__body">
+              Napíš mi dve vety o tom, čo ťa štve. Ak to viem vyriešiť, ozvem sa
+              s návrhom a odhadom. Ak nie, poviem ti to rovno a odporučím
+              niekoho.
+            </p>
+
+            <div class="contact__actions">
+              <!-- ⚠️ VYPLŇ e-mail na oboch miestach -->
+              <a class="btn btn--primary" href="mailto:ahoj@example.sk">
+                Napísať e-mail <span class="arrow" aria-hidden="true">↗</span>
+              </a>
+              <a class="contact__email" href="mailto:ahoj@example.sk"
+                >ahoj@example.sk</a
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="wrap footer">
+      <p class="footer__meta">© 2026 Daniel · Všetky práva vyhradené.</p>
+      <div class="footer__links">
+        <!-- ⚠️ VYPLŇ -->
+        <a href="https://github.com/not1draggy" target="_blank" rel="noreferrer noopener">GitHub</a>
+        <a href="https://linkedin.com/in/…" target="_blank" rel="noreferrer noopener">LinkedIn</a>
+      </div>
+    </footer>
+
+    <script src="script.js" defer></script>
+  </body>
+</html>
